@@ -1,0 +1,54 @@
+H1 {
+
+    color: purple;
+    letter-spacing: 20px;
+    word-spacing: 50px;
+    
+}
+
+p {
+
+    text-indent: 40px;
+    font-family: "Angelic";
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+
+    text-decoration: overline;
+    text-align: center;
+
+}
+
+h3 {
+
+    text-decoration: line-through;
+    text-align: center;
+
+}
+
+h4 {
+
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: "Angelic";
+    src: url(fonts/Angel\ wish.ttf);
+
+}
+
+.myElement{
+
+    color: crimson;
+    font-size:30px;
+}
+
+#MYID {
+
+    /* font-style:italic; */
+    font-style: oblique;
+}
