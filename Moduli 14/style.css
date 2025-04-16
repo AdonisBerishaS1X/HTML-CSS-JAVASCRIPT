@@ -1,0 +1,71 @@
+article {
+    background: blueviolet;
+    color: white;
+    padding: 30opx;
+    
+}
+
+article > p{
+    background: purple;
+}
+
+article + p{
+    background: violet;
+    color: white;
+    padding: 30px;
+}
+
+article ~ p{
+    background: plum;
+    color: white;
+    padding: 30px;
+}
+
+h3{
+    color: orange;
+}
+
+h3:first-child{
+    background-color: black;
+}
+
+input:in-range{
+    border: 3px solid purple;
+}
+
+input:out-of-range{
+    border: 3px solid red;
+}
+
+input:required{
+    background-color: aqua;
+}
+
+input:invalid{
+    border: 3px solid crimson;
+}
+
+input:valid{
+    border:3px solid green;
+}
+
+h1::Before{
+    content: url("../images/SPARTA.jpg");
+}
+
+h1::after{
+    content: url("../images/SPARTA.jpg");
+}
+
+p::first-line{
+    font-size: 40px;
+    color: red;
+}
+
+p::first-letter{
+    color: black;
+}
+
+div{
+    opacity: 50%;
+}
