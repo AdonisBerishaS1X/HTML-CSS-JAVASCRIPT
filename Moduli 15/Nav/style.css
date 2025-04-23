@@ -1,0 +1,76 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover:non(.active){
+    background-color: orange;
+
+}
+
+.active{
+    background-color: violet;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: grey;
+    font-family: 'Courier New';
+
+}
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.navbar a:hover .dropdown:hover .dropbtn{
+    background-color: aquamarine;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    width: 100%;
+    left: 0px;
+    box-shadow: 0px 8px 16px 0px gray;
+}
+
