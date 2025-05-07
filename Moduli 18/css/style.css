@@ -1,0 +1,122 @@
+#translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: translate(100px, 50px);
+    padding: 10px;
+}
+
+#rotate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: rotate(45deg);
+    padding: 10px;
+}
+
+#scale{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: scale(2,1);
+    padding: 10px;
+}
+
+#scalex{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: scalex(3);
+    padding: 10px;
+}
+
+#scaley{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: scaley(3);
+    padding: 10px;
+}
+
+#skewx{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: skewx(3);
+    padding: 10px;
+}
+
+#skewy{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: skewy(40deg);
+    padding: 10px;
+}
+
+#rotatex{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: rotatex(130deg);
+    padding: 10px;
+}
+
+#rotatey{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: rotatey(130deg);
+    padding: 10px;
+}
+
+#rotatez{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: black;
+    background-color: red;
+    transform: rotatez(130deg);
+    padding: 10px;
+}
+
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    transition: background 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+
+.div:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+
+#BLOOD img{
+    transform: scale(1);
+    transition: 3s ease-in-out;
+}
+
+#BLOOD:hover img{
+    transform: scale(1.3);
+}
