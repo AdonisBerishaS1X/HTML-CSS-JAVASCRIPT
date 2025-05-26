@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Choose Your Role - Blood Angels Legion</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Choose Your Role in the Blood Angels Legion</h1>
+    <p class="subtitle">Select your battlefield calling within the legendary 10th Legion of Warhammer 40K.</p>
+  </header>
+
+ <a href="death-company.html" class="role-card" tabindex="0" aria-label="Death Company">
+  <div class="role-icon" aria-hidden="true">💀</div>
+  <h2 class="role-title">Death Company</h2>
+  <p class="role-desc">
+     These warriors are consumed by the Black Rage, their minds shattered yet hearts burning with righteous fury. Clad in dark armor and carrying chainswords, they charge headlong into battle, unstoppable and terrifying. To fight alongside the Death Company is to embrace death itself in a whirlwind of blood and fire.
+      </p>
+  </p>
+</a>
+
+
+    <div class="role-card" tabindex="0" data-role="Sanguinary Guard">
+      <div class="role-icon" aria-hidden="true">🛡️</div>
+      <h2 class="role-title">Sanguinary Guard</h2>
+      <p class="role-desc">
+        The elite veterans of the Blood Angels, draped in golden armor and wielding deadly angelic weapons. They are the Emperor's chosen protectors, moving with grace and precision to safeguard the Chapter Master and lead crucial strikes that turn the tide of battle.
+      </p>
+    </div>
+
+    <div class="role-card" tabindex="0" data-role="Tactical Marine">
+      <div class="role-icon" aria-hidden="true">⚔️</div>
+      <h2 class="role-title">Tactical Marine</h2>
+      <p class="role-desc">
+        The versatile backbone of the Legion’s fighting force. Tactical Marines master every weapon and tactic, able to adapt to any scenario with disciplined bolter fire and steadfast resolve. They hold the line, push forward, and bring relentless precision to the battlefield.
+      </p>
+    </div>
+
+    <div class="role-card" tabindex="0" data-role="Assault Marine">
+      <div class="role-icon" aria-hidden="true">🔥</div>
+      <h2 class="role-title">Assault Marine</h2>
+      <p class="role-desc">
+        Armed with jump packs and close combat weapons, Assault Marines are swift and deadly shock troops. They close the distance at a moment’s notice, ripping through enemy lines with chainswords and pistols in a storm of burning vengeance and brutal skill.
+      </p>
+    </div>
+
+    <div class="role-card" tabindex="0" data-role="Apothecary">
+      <div class="role-icon" aria-hidden="true">⚕️</div>
+      <h2 class="role-title">Apothecary</h2>
+      <p class="role-desc">
+        These battle-hardened medics bear the sacred duty of preserving the gene-seed and saving lives on the battlefield. With ancient knowledge and surgical precision, Apothecaries extract fallen warriors from death’s grasp and ensure the Chapter’s legacy endures.
+      </p>
+    </div>
+
+    <div class="role-card" tabindex="0" data-role="Devastator">
+      <div class="role-icon" aria-hidden="true">🎯</div>
+      <h2 class="role-title">Devastator</h2>
+      <p class="role-desc">
+        Masters of heavy firepower, Devastators lay down devastating suppressive fire with plasma cannons, lascannons, and missile launchers. From fortified positions or advancing behind the lines, their accurate volleys break enemy ranks and shatter armored threats.
+      </p>
+    </div>
+
+    <div class="role-card" tabindex="0" data-role="Inceptor">
+      <div class="role-icon" aria-hidden="true">🚀</div>
+      <h2 class="role-title">Inceptor</h2>
+      <p class="role-desc">
+        Inceptors are the lightning-fast assault troopers of the Legion, equipped with jump packs and heavy bolt weapons. They teleport or jump into the heart of enemy lines, delivering crushing firepower before vanishing again, leaving destruction in their wake.
+      </p>
+    </div>
+
+    <div class="role-card" tabindex="0" data-role="Intercessor">
+      <div class="role-icon" aria-hidden="true">🛡️</div>
+      <h2 class="role-title">Intercessor</h2>
+      <p class="role-desc">
+        Intercessors form the Legion’s disciplined infantry core. Equipped with powerful bolt rifles and trained for precision and endurance, they excel at both offense and defense — holding critical ground and pressing relentless attacks.
+      </p>
+    </div>
+
+    <div class="role-card" tabindex="0" data-role="Terminator">
+      <div class="role-icon" aria-hidden="true">🦾</div>
+      <h2 class="role-title">Terminator</h2>
+      <p class="role-desc">
+        Clad in nearly impenetrable Terminator armor, these warriors are the unstoppable juggernauts of the Blood Angels. They step through the fiercest battles, crushing enemies with thunderous melee strikes and heavy weaponry, leading assaults where others falter.
+      </p>
+    </div>
+  </main>
+
+  <script>
+    const roleCards = document.querySelectorAll('.role-card');
+
+    roleCards.forEach(card => {
+      card.addEventListener('click', () => {
+        roleCards.forEach(c => c.classList.remove('selected'));
+        card.classList.add('selected');
+        alert(`You selected: ${card.dataset.role}`);
+      });
+
+      card.addEventListener('keydown', (e) => {
+        if(e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          card.click();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
