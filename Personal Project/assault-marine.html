@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Assault Marine - Blood Angels</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .role-detail-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 2rem auto 4rem;
+      padding: 0 1rem;
+    }
+    .role-detail-text {
+      flex: 1 1 400px;
+    }
+    .role-detail-image {
+      flex: 0 1 300px;
+      max-width: 100%;
+    }
+    .role-detail-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ffb30088;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 768px) {
+      .role-detail-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Assault Marine</h1>
+    <p class="subtitle">Swift shock troops, masters of close combat.</p>
+  </header>
+
+  <div class="role-detail-container">
+    <div class="role-detail-image">
+      <img src="images/assault-marine-1.jpg" alt="Assault Marine leaping with jump pack" />
+      <img src="images/assault-marine-2.jpg" alt="Assault Marine in close combat" />
+    </div>
+
+    <div class="role-detail-text">
+      <section>
+        <h2>Speed and Ferocity</h2>
+        <p>
+          Assault Marines specialize in rapid insertion and brutal close-quarters combat. Equipped with jump packs, they can quickly close distances, striking deep into enemy lines before foes can react.
+        </p>
+      </section>
+
+      <section>
+        <h2>Weapons of Vengeance</h2>
+        <p>
+          Armed with chainswords, pistols, and other close combat weapons, Assault Marines embody the Blood Angels' legendary martial prowess. Their ferocity is unmatched, and their attacks leave devastation in their wake.
+        </p>
+      </section>
+
+      <section>
+        <h2>The Storm of Vengeance</h2>
+        <p>
+          Moving like a storm, Assault Marines sow chaos and fear, disrupting enemy formations and creating openings for their battle-brothers to exploit.
+        </p>
+      </section>
+
+      <a class="back-link" href="index.html">← Back to Role Selection</a>
+    </div>
+  </div>
+</body>
+</html>

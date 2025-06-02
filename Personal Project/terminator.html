@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terminator - Blood Angels</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .role-detail-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 2rem auto 4rem;
+      padding: 0 1rem;
+    }
+    .role-detail-text {
+      flex: 1 1 400px;
+    }
+    .role-detail-image {
+      flex: 0 1 300px;
+      max-width: 100%;
+    }
+    .role-detail-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ffb30088;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 768px) {
+      .role-detail-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Terminator</h1>
+    <p class="subtitle">Unstoppable juggernauts clad in nearly impenetrable armor.</p>
+  </header>
+
+  <div class="role-detail-container">
+    <div class="role-detail-image">
+      <img src="images/terminator-1.jpg" alt="Blood Angels Terminator in heavy armor" />
+      <img src="images/terminator-2.jpg" alt="Terminator striking in melee" />
+    </div>
+
+    <div class="role-detail-text">
+      <section>
+        <h2>Heavy Armor Titans</h2>
+        <p>
+          Terminators wear the iconic Tactical Dreadnought Armor, offering unparalleled protection on the battlefield. They are the Legion’s most resilient and powerful warriors.
+        </p>
+      </section>
+
+      <section>
+        <h2>Shock Assault Specialists</h2>
+        <p>
+          Armed with thunder hammers, storm bolters, and other heavy weapons, Terminators lead crushing assaults that break enemy lines with overwhelming force.
+        </p>
+      </section>
+
+      <section>
+        <h2>Fearless Vanguard</h2>
+        <p>
+          Their imposing presence inspires allies and terrifies foes as they relentlessly push forward in the fiercest combat zones.
+        </p>
+      </section>
+
+      <a class="back-link" href="index.html">← Back to Role Selection</a>
+    </div>
+  </div>
+</body>
+</html>

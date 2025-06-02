@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inceptor - Blood Angels</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .role-detail-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 2rem auto 4rem;
+      padding: 0 1rem;
+    }
+    .role-detail-text {
+      flex: 1 1 400px;
+    }
+    .role-detail-image {
+      flex: 0 1 300px;
+      max-width: 100%;
+    }
+    .role-detail-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ffb30088;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 768px) {
+      .role-detail-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Inceptor</h1>
+    <p class="subtitle">Lightning-fast assault troopers, delivering crushing firepower.</p>
+  </header>
+
+  <div class="role-detail-container">
+    <div class="role-detail-image">
+      <img src="images/inceptor-1.jpg" alt="Inceptor Marines deploying from drop pods" />
+      <img src="images/inceptor-2.jpg" alt="Inceptor firing heavy bolt weapons" />
+    </div>
+
+    <div class="role-detail-text">
+      <section>
+        <h2>Rapid Deployment</h2>
+        <p>
+          Inceptors are elite jump-pack equipped troopers, capable of teleporting or rapidly deploying into the thick of battle via drop pods or swift flight.
+        </p>
+      </section>
+
+      <section>
+        <h2>Heavy Bolt Weapons</h2>
+        <p>
+          Armed with heavy bolt pistols and assault bolters, Inceptors combine speed with formidable firepower, delivering devastating strikes before the enemy can react.
+        </p>
+      </section>
+
+      <section>
+        <h2>Shock and Awe</h2>
+        <p>
+          Their sudden and relentless assaults sow chaos in enemy ranks, creating critical openings and supporting broader Blood Angels offensive maneuvers.
+        </p>
+      </section>
+
+      <a class="back-link" href="index.html">← Back to Role Selection</a>
+    </div>
+  </div>
+</body>
+</html>
